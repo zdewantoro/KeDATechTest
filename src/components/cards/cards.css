@@ -1,0 +1,12 @@
+.wrapCard {
+  margin-bottom: 5%;
+}
+
+.cardContact {
+  width: 50%;
+  height: 80%;
+}
+
+.wrapper .wrapperCard {
+  margin-bottom: -5%;
+}

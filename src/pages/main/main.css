@@ -1,0 +1,80 @@
+.home-page .home {
+  background-image: url("../../assets/img/bubble.png");
+  background-size: 100%;
+}
+
+.home-page .header-box p {
+  font-weight: 600;
+}
+
+.home-page .about {
+  background-color: var(--primary-color);
+  padding-bottom: 100px;
+  background-image: url("../../assets/img/page-about.png");
+  background-size: 100%;
+}
+
+.home-page .about .row:nth-child(1) {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.home-page .about .row:nth-child(1) h1 p {
+  color: var(--color-text);
+}
+.home-page .about .row:nth-child(1) p {
+  text-align: left;
+}
+
+.home-page .about .explanation {
+  padding: 30px;
+}
+
+.aboutUs .wrapper {
+  margin: 0 30% -100% 30%;
+}
+
+.home-page .contact {
+  background-image: url("../../assets/img/page-contact.png");
+  background-size: 100%;
+}
+
+.home-page .pricing {
+  background: #c6ffdd;
+  background: -webkit-linear-gradient(to left, #f648f9, #9125ff, #1550ff);
+  background: linear-gradient(to left, #f648f9, #9125ff, #1550ff);
+}
+
+.imgBusiness {
+  width: 60%;
+  height: 60%;
+  margin-top: 10%;
+  margin-right: 30%;
+}
+
+.p1 {
+  margin-top: 60%;
+  margin-right: 30%;
+}
+
+.p2 {
+  margin-bottom: 40%;
+}
+
+.cardDev {
+  margin-right: 10%;
+}
+
+.cardDev1 {
+  margin-bottom: -15%;
+}
+
+.pStartUp {
+  text-align: left;
+  margin-top: 5%;
+  padding-bottom: 10%;
+}
+
+.wrapPrice {
+  margin-left: 7%;
+}

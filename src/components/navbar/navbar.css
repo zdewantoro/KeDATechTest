@@ -1,0 +1,28 @@
+.navbar {
+  position: fixed;
+  padding: 15px 0 15px 0;
+  width: 100%;
+  transition: all ease;
+  -webkit-transition: all ease;
+  -moz-transition: all ease;
+  -ms-transition: all ease;
+  -o-transition: all ease;
+  z-index: 9999;
+}
+.navbar.color-active {
+  background-color: var(--navbar-color);
+  padding: 20px 0 20px 0;
+  border-bottom: 2px solid rgba(0, 0, 255, 0.356);
+}
+
+.navbar .nav-link a {
+  padding: 5px 10px 5px 10px;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--navbar-color-text);
+}
+
+.navbar .nav-link a:hover {
+  color: var(--secondary-color);
+}
